@@ -1,0 +1,58 @@
+I went the objects/class route for the final project.
+I simply thought it would be alot more convenient when 
+having to combine variable work and pass in functions
+with click functionality.  It was the only way I saw I could combine
+everything I needed. The design provded easy access to my variables.
+
+My approach to testing was very hands on. as soon as I encountered a problem
+as I was coding, I looked to resolve the issue. I tried my best to be as accurate as 
+possible the first go around. Through trial and erroe I decided to implement a turtle array
+to provide different sources for the writing and have them all in one place.
+multiple turtles made my animation much quicker and easier to maintain.
+
+Additionally, I created my click function in my main which allowed me to pass in coordinate
+arguments as well as pass in the variables I needed located in the game_class StatusBox. 
+
+Classes created:
+	StatusBox: used as a convinient way to handle necessary 
+		  variables all in one location. And because it is a class,
+		  it can be passed into other functions and provide access to
+		  to necessary variable inside of it)
+	  Attributes
+		-window
+		-player_name
+		-game_size
+		-guess
+		-match
+		-flipped_index
+		-turtle_bank
+		-cardface_bank
+		-settings_bank
+		-gamecard_bank
+
+	Card: used as a convinient was to represent a "card".
+	  Attributes
+		-turtle
+		-front
+		-back
+		-flipped
+
+Functions created:
+	draw_leaderboard
+	custom_images
+	save_leaderboard
+		-reverse_bubble_sort
+	draw_match
+	draw_guess
+	create_quad
+	build_board
+	draw_status
+	card_eval
+	twocard_eval
+		-update_guess
+		-update_match
+	update_match
+	winner
+	quitbutton
+	place_cards
+
