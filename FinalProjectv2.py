@@ -1,9 +1,4 @@
-'''
- CS5001
- Fall 2020
- Final Project
- Rodolph Mesadieu
-'''
+
 import turtle
 import random
 import time
